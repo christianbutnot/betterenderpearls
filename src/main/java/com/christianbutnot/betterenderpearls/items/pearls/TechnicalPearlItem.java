@@ -1,4 +1,4 @@
-package com.christianbutnot.betterenderpearls.items;
+package com.christianbutnot.betterenderpearls.items.pearls;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 
-public class AdvancedPearlItem extends EnderpearlItem {
+public class TechnicalPearlItem extends EnderpearlItem {
 
-	public AdvancedPearlItem(Properties p_41180_) {
+	public TechnicalPearlItem(Properties p_41180_) {
 		super(p_41180_);
 		// TODO Auto-generated constructor stub
 	}
@@ -48,7 +48,7 @@ public class AdvancedPearlItem extends EnderpearlItem {
 	@Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
 		{
-            components.add(Component.literal("12 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            components.add(Component.literal("8 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         } 
 
         super.appendHoverText(stack, level, components, flag);

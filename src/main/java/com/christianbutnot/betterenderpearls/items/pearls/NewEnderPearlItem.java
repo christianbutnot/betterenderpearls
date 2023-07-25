@@ -1,4 +1,4 @@
-package com.christianbutnot.betterenderpearls.items;
+package com.christianbutnot.betterenderpearls.items.pearls;
 
 import java.util.List;
 

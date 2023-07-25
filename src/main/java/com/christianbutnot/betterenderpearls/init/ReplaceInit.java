@@ -1,7 +1,7 @@
 package com.christianbutnot.betterenderpearls.init;
 
-import com.christianbutnot.betterenderpearls.items.NewEnderEyeItem;
-import com.christianbutnot.betterenderpearls.items.NewEnderPearlItem;
+import com.christianbutnot.betterenderpearls.items.eyes.OriginalEyeItem;
+import com.christianbutnot.betterenderpearls.items.pearls.NewEnderPearlItem;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -18,7 +18,7 @@ public class ReplaceInit {
 			() -> new NewEnderPearlItem(
 					new Item.Properties().stacksTo(1).durability(4).tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> ENDER_EYE = ITEMS.register("ender_eye",
-			() -> new NewEnderEyeItem(
+			() -> new OriginalEyeItem(
 					new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	
 	public static void register(IEventBus eventBus) {
