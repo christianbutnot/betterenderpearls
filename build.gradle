@@ -116,13 +116,15 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    // Put repositories for dependencies here
-    // ForgeGradle automatically adds the Forge maven and Maven Central for you
-
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
-    // flatDir {
-    //     dir 'libs'
-    // }
+     maven {
+    	// location of a maven mirror for JEI files, as a fallback
+   		 	name = "ModMaven"
+   		 	url = "https://modmaven.k-4u.nl"
+ 	 }
+  		maven {
+  			name = "CurseMaven"
+  			url = "https://www.cursemaven.com"
+    }
 }
 
 dependencies {
@@ -130,18 +132,21 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    
+    runtimeOnly fg.deobf("curse.maven:jei-238222:4494410")
+    
+    runtimeOnly fg.deobf("curse.maven:cosmeticarmor-237307:4016732") //cosmeticarmorreworked dependency
+    
+    runtimeOnly fg.deobf("curse.maven:cucumber-272335:4576530") //cucumber dependency
+	
+	runtimeOnly fg.deobf("curse.maven:royalcrowns-648127:4642669") //royalcrowns dependency
+	
+	runtimeOnly fg.deobf("curse.maven:moremetals-652686:4645768") //moremetals dependency
+	
+	runtimeOnly fg.deobf("curse.maven:progutils-881235:4655608") //progutils dependency
+	
+	runtimeOnly fg.deobf("curse.maven:condensedores-884567:4635810") //condensedores dependency
 
-    // Real mod deobf dependency examples - these get remapped to your current mappings
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
-    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
-    // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
-
-    // Examples using mod jars from ./libs
-    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
-
-    // For more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

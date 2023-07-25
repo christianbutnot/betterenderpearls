@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" A ",
+		"DSD",
+		" A "
+	],
+	"key": {
+		"S": {
+			"item": "betterenderpearls:advanced_enderpearl"
+		},
+		"A": {
+			"item": "minecraft:diamond"
+		},
+		"D": {
+			"item": "minecraft:redstone"
+		}
+	},
+	"result": {
+		"item": "betterenderpearls:energized_enderpearl",
+		"count": 1
+	}
+}
