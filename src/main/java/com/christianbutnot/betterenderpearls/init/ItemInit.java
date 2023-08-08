@@ -1,7 +1,6 @@
 package com.christianbutnot.betterenderpearls.init;
 
 import com.christianbutnot.betterenderpearls.BetterEnderPearls;
-import com.christianbutnot.betterenderpearls.items.eyes.PoisonedEyeItem;
 import com.christianbutnot.betterenderpearls.items.pearls.AdvancedPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.EnergizedPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.ImmortalPearlItem;
@@ -30,10 +29,6 @@ public class ItemInit {
 	public static final RegistryObject<Item> IMMORTAL_ENDERPEARL = ITEMS.register("immortal_enderpearl",
 			() -> new ImmortalPearlItem(
 					new Item.Properties().stacksTo(1).durability(64).tab(CreativeModeTab.TAB_MISC)));
-	
-	public static final RegistryObject<Item> POISONED_EYE = ITEMS.register("poisoned_eye",
-			() -> new PoisonedEyeItem(
-					new Item.Properties().stacksTo(1).durability(10).tab(CreativeModeTab.TAB_MISC)));
 	
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
