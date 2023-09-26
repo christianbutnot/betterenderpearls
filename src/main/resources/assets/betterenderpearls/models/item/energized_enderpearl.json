@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "betterenderpearls:items/energized_enderpearl"
+		"layer0": "betterenderpearls:item/energized_enderpearl"
 	}
 }
