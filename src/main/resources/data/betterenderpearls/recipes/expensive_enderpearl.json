@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" B ",
+		"ASA",
+		" B "
+	],
+	"key": {
+		"S": {
+			"item": "betterenderpearls:enriched_enderpearl"
+		},
+		"A": {
+			"item": "minecraft:emerald"
+		},
+		"B": {
+			"item": "minecraft:scute"
+		}
+	},
+	"result": {
+		"id": "betterenderpearls:expensive_enderpearl",
+		"count": 1
+	}
+}

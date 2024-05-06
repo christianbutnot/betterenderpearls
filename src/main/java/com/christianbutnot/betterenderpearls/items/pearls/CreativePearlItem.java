@@ -18,9 +18,9 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.Level;
 
-public class TechnicalPearlItem extends EnderpearlItem {
+public class CreativePearlItem extends EnderpearlItem {
 
-	public TechnicalPearlItem(Properties p_41180_) {
+	public CreativePearlItem(Properties p_41180_) {
 		super(p_41180_);
 		// TODO Auto-generated constructor stub
 	}
@@ -37,10 +37,6 @@ public class TechnicalPearlItem extends EnderpearlItem {
 			thrownenderpearl.setItem(itemstack);
 			thrownenderpearl.shootFromRotation(p_41191_, p_41191_.getXRot(), p_41191_.getYRot(), 0.0F, 1.5F, 1.0F);
 			p_41190_.addFreshEntity(thrownenderpearl);
-			
-			ItemStack stack = p_41191_.getItemInHand(p_41192_);
-			stack.setDamageValue(stack.getDamageValue() + 1);
-			if (stack.getDamageValue() >= stack.getMaxDamage()) stack.setCount(0);
 		}
 
 		return InteractionResultHolder.sidedSuccess(itemstack, p_41190_.isClientSide());
@@ -49,7 +45,7 @@ public class TechnicalPearlItem extends EnderpearlItem {
 	@Override
     public void appendHoverText(ItemStack stack, @Nullable TooltipContext level, List<Component> components, TooltipFlag flag) {
 		{
-            components.add(Component.literal("8 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            components.add(Component.literal("Infinite Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         } 
 
         super.appendHoverText(stack, level, components, flag);

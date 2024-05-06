@@ -1,9 +1,17 @@
 {
-
+    "item.betterenderpearls.autonomous_frame": "Autonomous Frame",
+    "item.betterenderpearls.nether_pearl": "Nether Pearl",
 	"item.betterenderpearls.technical_enderpearl": "Technical Enderpearl",
 	"item.betterenderpearls.advanced_enderpearl": "Advanced Enderpearl",
+	"item.betterenderpearls.enriched_enderpearl": "Enriched Enderpearl",
+	"item.betterenderpearls.expensive_enderpearl": "Expensive Enderpearl",
 	"item.betterenderpearls.energized_enderpearl": "Energized Enderpearl",
 	"item.betterenderpearls.immortal_enderpearl": "Immortal Enderpearl",
-
-	"itemGroup.betterenderpearls": "Better Ender Pearls"
+	"item.betterenderpearls.creative_enderpearl": "Creative Enderpearl",
+	
+	"item.betterenderpearls.eradium_shard": "Eradium Shard",
+	"item.betterenderpearls.eradium": "Eradium",
+	"item.betterenderpearls.eradium_cluster": "Eradium Cluster",
+	
+	"block.betterenderpearls.eradium_ore": "Eradium Ore"
 }

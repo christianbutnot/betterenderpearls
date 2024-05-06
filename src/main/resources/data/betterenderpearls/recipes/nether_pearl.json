@@ -7,14 +7,14 @@
 	],
 	"key": {
 		"S": {
-			"item": "betterenderpearls:nether_pearl"
+			"item": "betterenderpearls:autonomous_frame"
 		},
 		"A": {
-			"item": "minecraft:iron_ingot"
+			"item": "minecraft:blaze_rod"
 		}
 	},
 	"result": {
-		"id": "betterenderpearls:technical_enderpearl",
+		"id": "betterenderpearls:nether_pearl",
 		"count": 1
 	}
 }

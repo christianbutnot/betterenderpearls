@@ -47,7 +47,7 @@ public class AdvancedPearlItem extends EnderpearlItem {
 	}
 	
 	@Override
-    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
+    public void appendHoverText(ItemStack stack, @Nullable TooltipContext level, List<Component> components, TooltipFlag flag) {
 		{
             components.add(Component.literal("12 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         } 

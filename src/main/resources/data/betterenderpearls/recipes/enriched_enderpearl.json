@@ -1,9 +1,9 @@
 {
 "type": "minecraft:crafting_shaped",
 	"pattern": [
-		" A ",
-		"DSD",
-		" A "
+		" B ",
+		"ASA",
+		" B "
 	],
 	"key": {
 		"S": {
@@ -12,12 +12,12 @@
 		"A": {
 			"item": "minecraft:diamond"
 		},
-		"D": {
-			"item": "minecraft:redstone"
+		"B": {
+			"item": "minecraft:"
 		}
 	},
 	"result": {
-		"id": "betterenderpearls:energized_enderpearl",
+		"id": "betterenderpearls:enriched_enderpearl",
 		"count": 1
 	}
 }

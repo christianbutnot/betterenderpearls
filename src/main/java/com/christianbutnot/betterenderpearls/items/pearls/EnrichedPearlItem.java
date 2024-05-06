@@ -18,9 +18,9 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.Level;
 
-public class TechnicalPearlItem extends EnderpearlItem {
+public class EnrichedPearlItem extends EnderpearlItem {
 
-	public TechnicalPearlItem(Properties p_41180_) {
+	public EnrichedPearlItem(Properties p_41180_) {
 		super(p_41180_);
 		// TODO Auto-generated constructor stub
 	}
@@ -49,7 +49,7 @@ public class TechnicalPearlItem extends EnderpearlItem {
 	@Override
     public void appendHoverText(ItemStack stack, @Nullable TooltipContext level, List<Component> components, TooltipFlag flag) {
 		{
-            components.add(Component.literal("8 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            components.add(Component.literal("24 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         } 
 
         super.appendHoverText(stack, level, components, flag);
