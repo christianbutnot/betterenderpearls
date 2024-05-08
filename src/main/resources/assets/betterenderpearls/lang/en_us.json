@@ -9,9 +9,14 @@
 	"item.betterenderpearls.immortal_enderpearl": "Immortal Enderpearl",
 	"item.betterenderpearls.creative_enderpearl": "Creative Enderpearl",
 	
+	"item.betterenderpearls.creative_ender_eye": "Creative Eye of Ender",
+	
 	"item.betterenderpearls.eradium_shard": "Eradium Shard",
 	"item.betterenderpearls.eradium": "Eradium",
 	"item.betterenderpearls.eradium_cluster": "Eradium Cluster",
 	
-	"block.betterenderpearls.eradium_ore": "Eradium Ore"
+	"block.betterenderpearls.eradium_ore": "Eradium Ore",
+	
+	"creativetab.betterenderpearls_tab": "Better Ender Pearls"
+	
 }

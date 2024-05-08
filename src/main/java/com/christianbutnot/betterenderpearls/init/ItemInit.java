@@ -4,8 +4,11 @@ import com.christianbutnot.betterenderpearls.Main;
 import com.christianbutnot.betterenderpearls.items.FrameItem;
 import com.christianbutnot.betterenderpearls.items.ResourceItem;
 import com.christianbutnot.betterenderpearls.items.pearls.AdvancedPearlItem;
+import com.christianbutnot.betterenderpearls.items.pearls.CreativeEyeItem;
 import com.christianbutnot.betterenderpearls.items.pearls.CreativePearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.EnergizedPearlItem;
+import com.christianbutnot.betterenderpearls.items.pearls.EnrichedPearlItem;
+import com.christianbutnot.betterenderpearls.items.pearls.ExpensivePearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.ImmortalPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.NetherPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.TechnicalPearlItem;
@@ -50,11 +53,11 @@ public class ItemInit {
 					new Item.Properties().stacksTo(1).durability(12)));
 	//diamond pearl
 	public static final DeferredItem<Item> ENRICHED_ENDERPEARL = ITEMS.register("enriched_enderpearl",
-			() -> new AdvancedPearlItem(
+			() -> new EnrichedPearlItem(
 					new Item.Properties().stacksTo(1).durability(24)));
 	//emerald pearl
 	public static final DeferredItem<Item> EXPENSIVE_ENDERPEARL = ITEMS.register("expensive_enderpearl",
-			() -> new AdvancedPearlItem(
+			() -> new ExpensivePearlItem(
 					new Item.Properties().stacksTo(1).durability(32)));
 	//energized pearl
 	public static final DeferredItem<Item> ENERGIZED_ENDERPEARL = ITEMS.register("energized_enderpearl",
@@ -68,6 +71,11 @@ public class ItemInit {
 	public static final DeferredItem<Item> CREATIVE_ENDERPEARL = ITEMS.register("creative_enderpearl",
 			() -> new CreativePearlItem(
 					new Item.Properties().stacksTo(1)));
+	
+	//creative eye WIP
+	//	public static final DeferredItem<Item> CREATIVE_ENDER_EYE = ITEMS.register("creative_ender_eye",
+	//			() -> new CreativeEyeItem(
+	//					new Item.Properties().stacksTo(1)));
 	
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
