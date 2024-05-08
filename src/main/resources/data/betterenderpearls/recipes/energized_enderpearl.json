@@ -7,13 +7,13 @@
 	],
 	"key": {
 		"S": {
-			"item": "betterenderpearls:advanced_enderpearl"
+			"item": "betterenderpearls:expensive_enderpearl"
 		},
 		"A": {
-			"item": "minecraft:diamond"
+			"item": "betterenderpearls:eradium_cluster"
 		},
 		"D": {
-			"item": "minecraft:redstone"
+			"item": "betterenderpearls:eradium_cluster"
 		}
 	},
 	"result": {

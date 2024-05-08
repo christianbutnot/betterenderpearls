@@ -10,10 +10,10 @@
 			"item": "betterenderpearls:advanced_enderpearl"
 		},
 		"A": {
-			"item": "minecraft:diamond"
+			"item": "minecraft:diamond_block"
 		},
 		"B": {
-			"item": "minecraft:"
+			"item": "minecraft:armadillo_scute"
 		}
 	},
 	"result": {

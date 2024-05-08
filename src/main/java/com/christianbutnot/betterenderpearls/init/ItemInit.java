@@ -4,7 +4,6 @@ import com.christianbutnot.betterenderpearls.Main;
 import com.christianbutnot.betterenderpearls.items.FrameItem;
 import com.christianbutnot.betterenderpearls.items.ResourceItem;
 import com.christianbutnot.betterenderpearls.items.pearls.AdvancedPearlItem;
-import com.christianbutnot.betterenderpearls.items.pearls.CreativeEyeItem;
 import com.christianbutnot.betterenderpearls.items.pearls.CreativePearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.EnergizedPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.EnrichedPearlItem;

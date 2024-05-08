@@ -1,5 +1,6 @@
 package com.christianbutnot.betterenderpearls;
 
+import com.christianbutnot.betterenderpearls.init.BlockInit;
 import com.christianbutnot.betterenderpearls.init.CreativeTabs;
 import com.christianbutnot.betterenderpearls.init.ItemInit;
 
@@ -15,7 +16,6 @@ public class Main {
         
     	CreativeTabs.register(eventBus);
     	ItemInit.register(eventBus);
-    	
-    }
+    	BlockInit.register(eventBus);    }
     
 }

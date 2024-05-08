@@ -10,10 +10,10 @@
 			"item": "betterenderpearls:enriched_enderpearl"
 		},
 		"A": {
-			"item": "minecraft:emerald"
+			"item": "minecraft:emerald_block"
 		},
 		"B": {
-			"item": "minecraft:scute"
+			"item": "minecraft:turtle_scute"
 		}
 	},
 	"result": {

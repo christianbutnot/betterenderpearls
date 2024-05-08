@@ -49,7 +49,7 @@ public class EnergizedPearlItem extends EnderpearlItem {
 	@Override
     public void appendHoverText(ItemStack stack, @Nullable TooltipContext level, List<Component> components, TooltipFlag flag) {
 		{
-            components.add(Component.literal("16 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
+            components.add(Component.literal("48 Uses").withStyle(ChatFormatting.GRAY).withStyle(ChatFormatting.ITALIC));
         } 
 
         super.appendHoverText(stack, level, components, flag);
