@@ -59,10 +59,5 @@ public class NetherPearlItem extends EnderpearlItem {
     public boolean isEnchantable(ItemStack stack) {
         return false;
     }
-
-    @Override
-    public boolean canApplyAtEnchantingTable(ItemStack stack, Enchantment enchantment) {
-        return false;
-    }
 	
 }

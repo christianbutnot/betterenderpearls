@@ -11,6 +11,7 @@ import net.minecraft.tags.StructureTags;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.EyeOfEnder;
 import net.minecraft.world.item.EnderEyeItem;
@@ -68,7 +69,7 @@ public class CreativeEyeItem extends EnderEyeItem {
     }
 
     @Override
-    public int getUseDuration(ItemStack p_326954_) {
+    public int getUseDuration(ItemStack pStack, LivingEntity p_346241_) {
         return 0;
     }
 

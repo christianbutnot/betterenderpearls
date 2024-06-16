@@ -60,9 +60,4 @@ public class ExpensivePearlItem extends EnderpearlItem {
         return false;
     }
 
-    @Override
-    public boolean canApplyAtEnchantingTable(ItemStack stack, Enchantment enchantment) {
-        return false;
-    }
-	
 }
