@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" D ",
+		"ASA",
+		" D "
+	],
+	"key": {
+		"S": {
+			"item": "betterenderpearls:energized_enderpearl"
+		},
+		"A": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"D": {
+			"item": "minecraft:dragon_breath"
+		}
+	},
+	"result": {
+		"id": "betterenderpearls:immortal_enderpearl",
+		"count": 1
+	}
+}

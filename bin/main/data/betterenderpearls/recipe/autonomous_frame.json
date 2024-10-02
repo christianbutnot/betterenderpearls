@@ -1,0 +1,20 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" A ",
+		"AEA",
+		" A "
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:iron_bars"
+		},
+		"E": {
+			"item": "betterenderpearls:eradium"
+		}
+	},
+	"result": {
+		"id": "betterenderpearls:autonomous_frame",
+		"count": 1
+	}
+}

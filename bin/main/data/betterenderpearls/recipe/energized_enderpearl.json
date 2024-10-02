@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" A ",
+		"DSD",
+		" A "
+	],
+	"key": {
+		"S": {
+			"item": "betterenderpearls:expensive_enderpearl"
+		},
+		"A": {
+			"item": "betterenderpearls:eradium_cluster"
+		},
+		"D": {
+			"item": "betterenderpearls:eradium_cluster"
+		}
+	},
+	"result": {
+		"id": "betterenderpearls:energized_enderpearl",
+		"count": 1
+	}
+}

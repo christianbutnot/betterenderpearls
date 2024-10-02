@@ -5,12 +5,15 @@ import com.christianbutnot.betterenderpearls.items.FrameItem;
 import com.christianbutnot.betterenderpearls.items.ResourceItem;
 import com.christianbutnot.betterenderpearls.items.pearls.AdvancedPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.CreativePearlItem;
+import com.christianbutnot.betterenderpearls.items.pearls.DarkenedPearlItem;
+import com.christianbutnot.betterenderpearls.items.pearls.DeepestPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.EnergizedPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.EnrichedPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.ExpensivePearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.ImmortalPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.NetherPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.TechnicalPearlItem;
+import com.christianbutnot.betterenderpearls.items.pearls.WardedPearlItem;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -58,6 +61,14 @@ public class ItemInit {
 	// creative pearl
 	public static final DeferredItem<Item> CREATIVE_ENDERPEARL = ITEMS.register("creative_enderpearl",
 			() -> new CreativePearlItem(new Item.Properties().stacksTo(1)));
+	
+	//special pearls
+	public static final DeferredItem<Item> DARKENED_ENDERPEARL = ITEMS.register("darkened_enderpearl",
+			() -> new DarkenedPearlItem(new Item.Properties().stacksTo(1).durability(8)));
+	public static final DeferredItem<Item> DEEPEST_ENDERPEARL = ITEMS.register("deepest_enderpearl",
+			() -> new DeepestPearlItem(new Item.Properties().stacksTo(1).durability(15)));
+	public static final DeferredItem<Item> WARDED_ENDERPEARL = ITEMS.register("warded_enderpearl",
+			() -> new WardedPearlItem(new Item.Properties().stacksTo(1).durability(23)));
 
 	// creative eye WIP
 	// public static final DeferredItem<Item> CREATIVE_ENDER_EYE =

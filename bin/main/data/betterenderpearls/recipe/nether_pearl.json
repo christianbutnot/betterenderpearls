@@ -1,0 +1,20 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" A ",
+		"ASA",
+		" A "
+	],
+	"key": {
+		"S": {
+			"item": "betterenderpearls:autonomous_frame"
+		},
+		"A": {
+			"item": "minecraft:blaze_rod"
+		}
+	},
+	"result": {
+		"id": "betterenderpearls:nether_pearl",
+		"count": 1
+	}
+}

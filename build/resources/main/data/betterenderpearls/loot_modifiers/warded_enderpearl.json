@@ -1,0 +1,10 @@
+{
+  "type": "betterenderpearls:add_common_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/warden"
+    }
+  ],
+  "item": "betterenderpearls:warded_enderpearl"
+}

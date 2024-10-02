@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABA",
+		"BCB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "betterenderpearls:immortal_enderpearl"
+		},
+		"B": {
+			"item": "minecraft:nether_star"
+		},
+		"C": {
+			"item": "betterenderpearls:autonomous_frame"
+		}
+	},
+	"result": {
+		"id": "betterenderpearls:creative_enderpearl",
+		"count": 1
+	}
+}

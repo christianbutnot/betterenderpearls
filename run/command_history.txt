@@ -1,0 +1,10 @@
+/locate structure minecraft:stronghold
+/tp @s 1792 ~ -704
+/loot give Dev loot minecraft:entities/warden
+/loot give Dev loot minecraft:entities/elder_guardian
+/loot give Dev loot minecraft:chests/ancient_city
+/enchant Dev betterenderpearls:ender_retension
+/enchant Dev betterenderpearls:ender_retension 3
+/enchant Dev betterenderpearls:ender_retension 2
+/enchant Dev betterenderpearls:ender_retension 1
+/effect give Dev minecraft:regeneration 1 25
