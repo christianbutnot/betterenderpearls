@@ -1,25 +1,14 @@
+**BETTER ENDER PEARLS**
 
-Installation information
-=======
+![Uploading image.png…]()
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+ As of v1.0.3 the mod went under a complete overhaul, and was ported to NeoForge
+Firstly, you must enter the End Dimension and find Eradium Ore
+Craft yourself Eradium from Eradium Shards
+Eradium Clusters can then be crafted as well
+An Autonomous Frame will allow you to make a Better Ender Pearl
+Using Autonomous Frames and various resources, you can craft 8 types of ender pearls ranging from 4 to 64 uses, and even an Infinite Use Ender Pearl!
+Credit for various textures to MegaDekker
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
