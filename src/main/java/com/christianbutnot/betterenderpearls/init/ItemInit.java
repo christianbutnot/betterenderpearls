@@ -1,8 +1,6 @@
 package com.christianbutnot.betterenderpearls.init;
 
 import com.christianbutnot.betterenderpearls.Main;
-import com.christianbutnot.betterenderpearls.items.FrameItem;
-import com.christianbutnot.betterenderpearls.items.ResourceItem;
 import com.christianbutnot.betterenderpearls.items.pearls.AdvancedPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.CreativePearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.DarkenedPearlItem;
@@ -14,6 +12,8 @@ import com.christianbutnot.betterenderpearls.items.pearls.ImmortalPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.NetherPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.TechnicalPearlItem;
 import com.christianbutnot.betterenderpearls.items.pearls.WardedPearlItem;
+import com.christianbutnot.justanotherlibrarymod.common.item.ItemTypes.ResourceItem;
+import com.christianbutnot.justanotherlibrarymod.common.item.ItemTypes.UtilityItem;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -34,7 +34,7 @@ public class ItemInit {
 
 	// objects
 	public static final DeferredItem<Item> AUTONOMOUS_FRAME = ITEMS.register("autonomous_frame",
-			() -> new FrameItem(new Item.Properties()));
+			() -> new UtilityItem(new Item.Properties()));
 
 	// pearls
 	// nether pearl (effective TIER 1)

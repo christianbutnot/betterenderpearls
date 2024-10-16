@@ -8,3 +8,5 @@
 /enchant Dev betterenderpearls:ender_retension 2
 /enchant Dev betterenderpearls:ender_retension 1
 /effect give Dev minecraft:regeneration 1 25
+/enchant Dev betterenderpearls:ender_retension 3
+/effect give Dev minecraft:regeneration infinite 25

@@ -24,6 +24,6 @@ C:\\Users\\crimm\\.gradle\\caches\\neoformruntime\\assets
 betterenderpearls
 --all
 --output
-F:\\GitHub\\1.21.1\\betterenderpearls\\src\\generated\\resources
+F:\\GitHub\\1.21.1\\neoforge\\betterenderpearls\\src\\generated\\resources
 --existing
-F:\\GitHub\\1.21.1\\betterenderpearls\\src\\main\\resources
+F:\\GitHub\\1.21.1\\neoforge\\betterenderpearls\\src\\main\\resources
