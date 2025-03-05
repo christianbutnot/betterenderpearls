@@ -1,23 +1,17 @@
 {
-"type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"A": "minecraft:emerald_block",
+		"S": "betterenderpearls:expensive_enderpearl",
+		"B": "minecraft:turtle_scute"
+	},
 	"pattern": [
 		" B ",
 		"ASA",
 		" B "
 	],
-	"key": {
-		"S": {
-			"item": "betterenderpearls:enriched_enderpearl"
-		},
-		"A": {
-			"item": "minecraft:emerald_block"
-		},
-		"B": {
-			"item": "minecraft:turtle_scute"
-		}
-	},
 	"result": {
-		"id": "betterenderpearls:expensive_enderpearl",
-		"count": 1
+		"count": 1,
+		"id": "betterenderpearls:expensive_enderpearl"
 	}
 }

@@ -1,20 +1,16 @@
 {
-"type": "minecraft:crafting_shaped",
-	"pattern": [
-		" A ",
-		"ASA",
-		" A "
-	],
+	"type": "minecraft:crafting_shaped",
 	"key": {
-		"S": {
-			"item": "betterenderpearls:technical_enderpearl"
-		},
-		"A": {
-			"item": "minecraft:gold_ingot"
-		}
+		"A": "betterenderpearls:technical_enderpearl",
+		"S": "minecraft:gold_ingot"
 	},
+	"pattern": [
+		" S ",
+		"SAS",
+		" S "
+	],
 	"result": {
-		"id": "betterenderpearls:advanced_enderpearl",
-		"count": 1
+		"count": 1,
+		"id": "betterenderpearls:advanced_enderpearl"
 	}
 }

@@ -1,20 +1,16 @@
 {
-"type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"A": "betterenderpearls:eradium",
+		"B": "betterenderpearls:eradium_shard"
+	},
 	"pattern": [
 		" A ",
 		"ABA",
 		" A "
 	],
-	"key": {
-		"B": {
-			"item": "betterenderpearls:eradium_shard"
-		},
-		"A": {
-			"item": "betterenderpearls:eradium"
-		}
-	},
 	"result": {
-		"id": "betterenderpearls:eradium_cluster",
-		"count": 1
+		"count": 1,
+		"id": "betterenderpearls:eradium_cluster"
 	}
 }

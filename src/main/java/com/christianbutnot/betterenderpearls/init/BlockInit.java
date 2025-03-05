@@ -4,6 +4,9 @@ import java.util.function.Supplier;
 
 import com.christianbutnot.betterenderpearls.Main;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -19,7 +22,7 @@ public class BlockInit {
 	
 	
 	public static final DeferredBlock<Block> ERADIUM_ORE = registerBlock("eradium_ore",
-			() -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+			() -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Main.MODID, "eradium_ore")))));
 
 	private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
 		DeferredBlock<T> toReturn = BLOCKS.register(name, block);
@@ -28,7 +31,7 @@ public class BlockInit {
 	}
 
 	private static <T extends Block> DeferredItem<BlockItem> registerBlockItem(String name, DeferredBlock<T> block) {
-		return ItemInit.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+		return ItemInit.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Main.MODID, name)))));
 	}
 
 	public static void register(IEventBus eventBus) {

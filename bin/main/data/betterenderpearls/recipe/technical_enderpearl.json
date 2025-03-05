@@ -1,20 +1,16 @@
 {
-"type": "minecraft:crafting_shaped",
-	"pattern": [
-		" A ",
-		"ASA",
-		" A "
-	],
+	"type": "minecraft:crafting_shaped",
 	"key": {
-		"S": {
-			"item": "betterenderpearls:nether_pearl"
-		},
-		"A": {
-			"item": "minecraft:iron_ingot"
-		}
+		"A": "betterenderpearls:nether_pearl",
+		"S": "minecraft:iron_ingot"
 	},
+	"pattern": [
+		" S ",
+		"SAS",
+		" S "
+	],
 	"result": {
-		"id": "betterenderpearls:technical_enderpearl",
-		"count": 1
+		"count": 1,
+		"id": "betterenderpearls:technical_enderpearl"
 	}
 }

@@ -1,20 +1,16 @@
 {
-"type": "minecraft:crafting_shaped",
-	"pattern": [
-		" A ",
-		"AEA",
-		" A "
-	],
+	"type": "minecraft:crafting_shaped",
 	"key": {
-		"A": {
-			"item": "minecraft:iron_bars"
-		},
-		"E": {
-			"item": "betterenderpearls:eradium"
-		}
+		"A": "betterenderpearls:eradium",
+		"S": "minecraft:iron_bars"
 	},
+	"pattern": [
+		" S ",
+		"SAS",
+		" S "
+	],
 	"result": {
-		"id": "betterenderpearls:autonomous_frame",
-		"count": 1
+		"count": 1,
+		"id": "betterenderpearls:autonomous_frame"
 	}
 }

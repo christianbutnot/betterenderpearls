@@ -1,23 +1,17 @@
 {
-"type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"A": "betterenderpearls:immortal_enderpearl",
+		"C": "betterenderpearls:autonomous_frame",
+		"B": "minecraft:nether_star"
+	},
 	"pattern": [
 		"ABA",
 		"BCB",
 		"ABA"
 	],
-	"key": {
-		"A": {
-			"item": "betterenderpearls:immortal_enderpearl"
-		},
-		"B": {
-			"item": "minecraft:nether_star"
-		},
-		"C": {
-			"item": "betterenderpearls:autonomous_frame"
-		}
-	},
 	"result": {
-		"id": "betterenderpearls:creative_enderpearl",
-		"count": 1
+		"count": 1,
+		"id": "betterenderpearls:creative_enderpearl"
 	}
 }
